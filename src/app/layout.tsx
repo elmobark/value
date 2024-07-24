@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  // <NextUIProvider>
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
